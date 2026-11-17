@@ -31,7 +31,7 @@
             <a href="#projects">View My Projects</a>
         </div>
         <span class="note">
-            <div class="about">
+            <div class="about" id="about">
                 <h1>About Me</h1>
                 <p>I am Chinenye Mercy, a passionate frontend developer with a keen eye for design and a strong
                     foundation
@@ -54,7 +54,7 @@
              <span class="img_1"><img src="./WhatsApp Image 2026-11-17 at 11.27.31 AM.jpeg"></span>
         </span>
         </div>
-        <p id="title"><strong>My Projects</strong></p>
+        <p class="topic" id="projects"><strong>My Projects</strong></p>
         <span class="container">
             <div class="card">
                 <img id="image_1" src="./fylo.png" alt="">
@@ -103,6 +103,26 @@
                     Demo ---></a>
             </div>
         </span>
+        <div class="contact">
+          <span>
+              <h2 class="topic" id="contact">Contact Me</h2>
+              <p id="enquires">Feel free to reach out to me if you have any enquiries or you want to collaborate!</p>
+              <p>Tel: +234 9070854630</p>
+              <p>Email: chinenyemercy013@gmail.com</p>
+          </span>
+          <span class="form">
+            <form action="https://formsubmit.co/chinenyemercy013@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" placeholder="Enter your comment here" required></textarea>
+                <button id="button" onclick="alert('Submitted successfully')" type="submit" value="Submit">Send Message</button>
+
+            </form>
+          </span>
+        </div>
 
     </main>
     <footer>

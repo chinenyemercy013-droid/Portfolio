@@ -73,10 +73,10 @@ text-decoration: none;
     padding: 10px;
     border-radius: 10px;
 }
-#title strong{
+.topic strong{
     font-size: 1.3rem;
 }
-#title{
+.topic{
     margin-bottom: 10px;
 }
 .container{
@@ -122,13 +122,53 @@ text-decoration: none;
      border-radius: 10px;
      
 }
+.contact{
+    display: flex;
+    flex-direction: row-reverse;
+   font-size: 1.2rem;
+}
+.topic{
+    color: rgb(255, 0, 119);
+}
+#enquires{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   margin-right: 800px;
+    gap: 20px;
+    width: 200px;
+    line-height: 1.6;
+}
+#button{
+    background-color: rgb(255, 0, 119);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.form label{
+  color: rgb(255, 0, 119);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.form input, .form textarea{
+    border:solid 1px rgb(255, 0, 119);
+    width: 400%;
+    border-radius: 10px;
+    height: 60px;
+}
+
 footer{
     text-align: center;
 }
 
 @media (max-width:768px){
     header{
-        gap: 40px;
+        gap: 30px;
     }
     .everything{
         flex-direction: column-reverse;
@@ -180,5 +220,11 @@ margin-left:5px;
     .info p{
         margin-bottom: 20px;
     }
-
+.contact{
+    flex-direction: column;
+    gap: 10px;
+}
+.form input, .form textarea{
+    width: 150%;
+}
 }
