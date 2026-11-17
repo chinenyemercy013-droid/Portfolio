@@ -154,12 +154,16 @@ text-decoration: none;
   color: rgb(255, 0, 119);
   font-weight: bold;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 .form input, .form textarea{
     border:solid 1px rgb(255, 0, 119);
     width: 400%;
     border-radius: 10px;
     height: 60px;
+}
+.form input::placeholder, .form textarea::placeholder{
+    padding:10px;
 }
 
 footer{
